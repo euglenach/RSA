@@ -6,7 +6,7 @@ import sys
 def LCM(x,y):#最小公倍数
     return x * y // math.gcd(x,y)
 
-def ExtendedEuclid(x,y):
+def ExtendedEuclid(x,y):#拡張ユークリッドの互除法
     #if(x<0 or y<0):return 0
     
     c0, c1 = x, y
