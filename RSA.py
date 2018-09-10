@@ -1,5 +1,4 @@
 import random
-import fractions
 import math
 import sys
 
